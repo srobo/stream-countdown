@@ -28,4 +28,5 @@ main h1#countdown {
     font-family: 'DSEG7-Classic';
     font-weight: bold;
     transform: translateX(-8%); /* HACK: Offset so the time is centred, not the whole text */
+    backface-visibility: hidden; /* Makes Windows font rendering bugs less noticeable */
 }
