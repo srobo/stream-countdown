@@ -27,13 +27,13 @@ main h1 {
 main h1#countdown {
     font-family: 'Open Sans';
     font-weight: bold;
-    transform: translateX(72%) translateY(110%);
+    transform: translateX(79%) translateY(110%);
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
 }
 
 main h1#message {
     font-family: 'Open Sans';
     font-weight: bold;
-    transform: translateX(75%) translateY(70%);
+    transform: translateX(80%) translateY(70%);
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
 }

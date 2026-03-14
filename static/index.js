@@ -11,7 +11,7 @@ function updateCountdown(target) {
     if (duration.valueOf() <= 0) {
         showMessage("Soon!");
     } else {
-        document.getElementById(COUNTDOWN_ELEMENT_ID).innerText = duration.toFormat("-hh:mm:ss");
+        document.getElementById(COUNTDOWN_ELEMENT_ID).innerText = `in ${duration.toFormat("hh:mm:ss")}`;
     }
 }
 
