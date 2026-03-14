@@ -11,7 +11,7 @@ function updateCountdown(target) {
     if (duration.valueOf() <= 0) {
         showMessage("Starting \nSoon!");
     } else {
-        document.getElementById(COUNTDOWN_ELEMENT_ID).innerText = `Starting in \n${duration.toFormat("hh:mm:ss")}`;
+        document.getElementById(COUNTDOWN_ELEMENT_ID).innerText = `Starting \nin ${duration.toFormat("hh:mm:ss")}`;
     }
 }
 
