@@ -9,9 +9,9 @@ function showMessage(text) {
 function updateCountdown(target) {
     const duration = target.diffNow();
     if (duration.valueOf() <= 0) {
-        showMessage("Soon!");
+        showMessage("Starting \nSoon!");
     } else {
-        document.getElementById(COUNTDOWN_ELEMENT_ID).innerText = `in ${duration.toFormat("hh:mm:ss")}`;
+        document.getElementById(COUNTDOWN_ELEMENT_ID).innerText = `Starting in \n${duration.toFormat("hh:mm:ss")}`;
     }
 }
 
